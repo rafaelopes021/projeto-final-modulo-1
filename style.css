@@ -350,7 +350,12 @@ footer section {
 
     .apoio {
         flex-direction: column;
+        align-items: center;
         font-size: 23px;
+    }
+
+    figure {
+        width: 88vw;
     }
 
     footer {
@@ -360,22 +365,29 @@ footer section {
 
     .logoPata{
         display: flex;
-
         align-items: center;
         font-size: 20px;
+        font-family: 'Roboto Serif', serif;
         
     }
 
     .contatos {
-        width: 40vw;
-        height: 50vh;
+        display: flex;
+        width: 60vw;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        
+    }
+
+    .logoPata img {
+        width: 16vw;
     }
 
     .atendimento{
         align-items: center;
     }
-
-        
+  
     .sobre{
         align-items: center;
     }
