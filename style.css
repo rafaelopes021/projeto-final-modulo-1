@@ -146,9 +146,15 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 34px;
+    font-size: 29px;
     color: #FD6A9A;
     font-family: 'Roboto Serif', serif;
+}
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
 }
 
 footer{
@@ -163,11 +169,18 @@ footer{
 }
 
 footer section {
-    border: #252525 solid;
     width: 70vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logoPata {
+    display: none;
+}
+
+.contatos {
+    display: none;
 }
 
 .atendimento{
@@ -220,27 +233,7 @@ footer section {
 }
 
 @media (max-width:500px) {
-    header {
-        justify-content: center;
-    }
 
-    
-header div {
-    display: flex;
-    width: 5vw;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
-header nav {
-    display: flex;
-    width: 5vw;
-    justify-content: space-between;
-    align-items: center;
-}
     .insta {
         display: none;
     }
@@ -249,43 +242,145 @@ header nav {
         display: none;
     }
 
+    .whatsapp {
+        width: 10vw;
+    }
+
     .pata {
         width: 15vw;
         padding-right: 7px;
     }
 
     header div {
-        width: 80vw;
+        position: relative;
+        right: 55px;
+    }
+
+    header nav{
+        padding-left: 65px;
+        justify-content: center;
     }
 
     .primeiraSessao {
         background-image: url(assets/dog-chapeu-mobile.png);
+        height: 85vh;
+    }
+
+    .primeiraSessao img {
+        width: 30vw;
     }
 
     .primeiraSessao div {
+        height: 0vh;
         flex-direction: column;
         justify-content: center;
         font-size: 40px;
-        border: #3a342f solid;
     }
 
     .primeiraSessao div h2 {
-        font-size: 30px;
+        font-size: 38px;
     }
 
 
     .segundaSessao {
         background-image: url(assets/dog-touca-mobile.png);
+        height: 85vh;
+    }
+
+    .segundaSessao div {
+        width: 95vw;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .segundaSessao div h2{
+        width: 75vw;
+        font-size: 33px
+    }
+
+    .segundaSessao div p {
+        width: 85vw;
+        font-size: 20px;
+    }
+
+    .segundaSessao div button {
+        width: 45vw;
+        height: 8vh;
+        font-size: 28px;
     }
 
 
     .terceiraSessao {
         background-image: url(assets/dog-preto-mobile.png);
+        height: 85vh;
+    }
+
+    
+    .terceiraSessao div {
+        width: 95vw;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .terceiraSessao div h2{
+        width: 85vw;
+        font-size: 33px
+    }
+
+    .terceiraSessao div p {
+        width: 85vw;
+        font-size: 20px;
     }
 
 
     footer section {
         display: flex;
         flex-direction: column;
+    }
+    
+    .terceiraSessao div button {
+        width: 55vw;
+        height: 8vh;
+        font-size: 28px;
+    }
+
+    .apoio {
+        flex-direction: column;
+        font-size: 23px;
+    }
+
+    footer {
+        height: 80vh;
+        
+    }
+
+    .logoPata{
+        display: flex;
+
+        align-items: center;
+        font-size: 20px;
+        
+    }
+
+    .contatos {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .atendimento{
+        align-items: center;
+    }
+
+        
+    .sobre{
+        align-items: center;
+    }
+
+    .unidades{
+        align-items: center;
     }
 }
