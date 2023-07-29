@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    height: 12vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252525;
+    font-family: 'Roboto Serif', serif;
+}
+
+header div {
+    display: flex;
+    width: 14vw;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header nav {
+    display: flex;
+    width: 13vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primeiraSessao img {
+    width: 10vw;
+}
+
+.pata {
+    width: 3vw;
+}
+
+.imgNav {
+    width: 2vw;
+}
+
+.primeiraSessao {
+    background-image: url(./assets/dog-chapeu.png);
+    height: 125vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto Serif', serif;
+}
+
+.imgPrimeiraSessao{
+    padding-top: 75px;
+}
+
+.primeiraSessao div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 51px;
+    padding-top: 185px;
+}
+
+.segundaSessao {
+    background-image: url(./assets/dog-touca.png);
+    height: 135vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.segundaSessao div{
+    width: 50vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: #3A342F;
+    font-size: 27px;
+    padding-left: 60px;
+}
+
+.segundaSessao h2{
+    font-size: 59px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.segundaSessao p{
+    width: 25vw;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.segundaSessao button{
+    width: 20vw;
+    height: 12vh;
+    background-color: #3a342f;
+    color: #f4f2f3;
+    border-radius: 65px;
+    border: none;
+    font-size: 35px;
+    margin-top: 45px;
+    
+}
+
+.terceiraSessao{
+    background-image: url(./assets/dog-preto.png);
+    height: 135vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: right;
+}
+
+.terceiraSessao div{
+    width: 50vw;
+}
+
+
+.terceiraSessao h2{
+    font-size: 59px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.terceiraSessao p{
+    width: 25vw;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    line-height: 1.5;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.apoio {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 34px;
+    color: #FD6A9A;
+    font-family: 'Roboto Serif', serif;
+}
+
+footer{
+    background-color: #EB4A7B;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    height: 28vh;
+    align-items: center;
+    line-height: 1.9;
+
+}
+
+footer section {
+    border: #252525 solid;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.atendimento h2{
+    font-family: 'Roboto Serif', serif;
+    font-size: 24px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobre h2{
+    font-family: 'Roboto Serif', serif;
+    font-size: 24px;
+}
+
+.unidades{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.unidades h2{
+    font-family: 'Roboto Serif', serif;
+    font-size: 24px;
+}
+
+.terceiraSessao button{
+    width: 20vw;
+    height: 12vh;
+    background-color: white;
+    color: black;
+    border-radius: 65px;
+    border: none;
+    font-size: 35px;
+    margin-top: 45px;
+    font-family: 'Roboto Serif', serif;
+    
+}
+
+@media (max-width:500px) {
+    header {
+        justify-content: center;
+    }
+
+    
+header div {
+    display: flex;
+    width: 5vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+header nav {
+    display: flex;
+    width: 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+    .insta {
+        display: none;
+    }
+
+    .youtube {
+        display: none;
+    }
+
+    .pata {
+        width: 15vw;
+        padding-right: 7px;
+    }
+
+    header div {
+        width: 80vw;
+    }
+
+    .primeiraSessao {
+        background-image: url(assets/dog-chapeu-mobile.png);
+    }
+
+    .primeiraSessao div {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 40px;
+        border: #3a342f solid;
+    }
+
+    .primeiraSessao div h2 {
+        font-size: 30px;
+    }
+
+
+    .segundaSessao {
+        background-image: url(assets/dog-touca-mobile.png);
+    }
+
+
+    .terceiraSessao {
+        background-image: url(assets/dog-preto-mobile.png);
+    }
+
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+}
